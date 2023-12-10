@@ -35304,12 +35304,12 @@ $21$background$color$decoration$decorationColor$decorationStyle$decorationThickn
 $12$ellipsis$fontFamily$fontSize$fontStyle$fontWeight$height$locale$maxLines$strutStyle$textAlign$textDirection$textHeightBehavior(a,b,c,d,e,f,g,h,i,j,k,l){return this.G(this,A.S("$12$ellipsis$fontFamily$fontSize$fontStyle$fontWeight$height$locale$maxLines$strutStyle$textAlign$textDirection$textHeightBehavior","$12$ellipsis$fontFamily$fontSize$fontStyle$fontWeight$height$locale$maxLines$strutStyle$textAlign$textDirection$textHeightBehavior",0,[a,b,c,d,e,f,g,h,i,j,k,l],["ellipsis","fontFamily","fontSize","fontStyle","fontWeight","height","locale","maxLines","strutStyle","textAlign","textDirection","textHeightBehavior"],0))},
 $2$aspect(a,b){return this.G(this,A.S("$2$aspect","$2$aspect",0,[a,b],["aspect"],0))},
 $1$findFirstFocus(a){return this.G(this,A.S("$1$findFirstFocus","$1$findFirstFocus",0,[a],["findFirstFocus"],0))},
-$1$newVertices(a){return this.G(this,A.S("$1$newVertices","$1$newVertices",0,[a],["newVertices"],0))},
-$4$allowUpscaling$targetHeight$targetWidth(a,b,c,d){return this.G(this,A.S("$4$allowUpscaling$targetHeight$targetWidth","$4$allowUpscaling$targetHeight$targetWidth",0,[a,b,c,d],["allowUpscaling","targetHeight","targetWidth"],0))},
 $2$onError(a,b){return this.G(this,A.S("$2$onError","$2$onError",0,[a,b],["onError"],0))},
 $3$onDone$onError(a,b,c){return this.G(this,A.S("$3$onDone$onError","$3$onDone$onError",0,[a,b,c],["onDone","onError"],0))},
 $3$isLocal(a,b,c){return this.G(this,A.S("$3$isLocal","$3$isLocal",0,[a,b,c],["isLocal"],0))},
 $3$async(a,b,c){return this.G(this,A.S("$3$async","$3$async",0,[a,b,c],["async"],0))},
+$1$newVertices(a){return this.G(this,A.S("$1$newVertices","$1$newVertices",0,[a],["newVertices"],0))},
+$4$allowUpscaling$targetHeight$targetWidth(a,b,c,d){return this.G(this,A.S("$4$allowUpscaling$targetHeight$targetWidth","$4$allowUpscaling$targetHeight$targetWidth",0,[a,b,c,d],["allowUpscaling","targetHeight","targetWidth"],0))},
 $3$textDirection(a,b,c){return this.G(this,A.S("$3$textDirection","$3$textDirection",0,[a,b,c],["textDirection"],0))},
 $3$sigmaX$sigmaY$tileMode(a,b,c){return this.G(this,A.S("$3$sigmaX$sigmaY$tileMode","$3$sigmaX$sigmaY$tileMode",0,[a,b,c],["sigmaX","sigmaY","tileMode"],0))},
 $3$context$exception$stack(a,b,c){return this.G(this,A.S("$3$context$exception$stack","$3$context$exception$stack",0,[a,b,c],["context","exception","stack"],0))},
@@ -58628,6 +58628,7 @@ case 2:return A.G(null,r)}})
 return A.H($async$rk,r)},
 a14(){this.gcZ(this).LS(0,new A.V4())},
 nW(a,b){var s,r=this,q=null
+A.i6("bg_music.wav",0.4,B.fr,B.bC)
 r.a8=a
 r.a14()
 s=A.abL()
@@ -58641,7 +58642,6 @@ s.ba=A.bK(B.bi,new A.V2(s))}s.Lg(a)},
 bJ(a){var s=0,r=A.I(t.H),q,p=this,o,n
 var $async$bJ=A.J(function(b,c){if(b===1)return A.F(c,r)
 while(true)switch(s){case 0:p.bL=!0
-A.i6("bg_music.wav",0.4,B.fr,B.bC)
 s=3
 return A.C(p.rk(),$async$bJ)
 case 3:s=4
